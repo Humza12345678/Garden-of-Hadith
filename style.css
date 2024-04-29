@@ -4,104 +4,215 @@
           font-family: 'poppins', sans-serif;
           box-sizing: border-box;
         }
-        body{
+
+        body {
           background: white;
-          
+
         }
-        a.books{
-            border: 10vh;
-            border-color: black;
-            border-radius: 4px;
-            text-decoration: none;
-            text-align: center;
-            box-sizing: border-box;
-            padding: 5vh;
+
+        a.books {
+          border: 10vh;
+          border-color: black;
+          border-radius: 4px;
+          text-decoration: none;
+          text-align: center;
+          box-sizing: border-box;
+          padding: 5vh;
         }
-        footer{
-    width: 100%;
-    bottom: 0;
-    background: black;
-    color: white;
-    padding: 100px 0 30px;
-    border-top-left-radius: 125px;
-    font-size: 15px;
-    line-height: 20px;
-  }
-  .row{
-    width: 85%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
-    
-  }
-  .h-books{
-    outline: none;
-    text-align: center;
-  }
-.col{
-    flex-basis: 25%;
-    padding: 10px;
-  }
-.logo{
-    width: 370px;
-    margin-bottom: 30px;
-  }
-.col h3{
-    width: fit-content;
-    margin-bottom: 40px;
-    position: relative
-    ;
-  }
-.email{
-  width: fit-content;
-  border-bottom: 1px solid #ccc;
+.contact{
+  text-align: justify;
 }
-ul li{
-  list-style: none;
-  margin-bottom: 12px;
-}
-ul li a{
-  text-decoration: none;
-  color: white;
-}
-form{
-  padding-bottom: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 50px;
-}
-form .far{
-  font-size: 18px;
-  margin-right: 10px;
-}
-form input{
-  width: 100%;
-  background: transparent;
-  color: #ccc;
-  border: 0;
-  outline: none;
-}
-form button{
-  background: transparent;
-  border: 0;
-  outline: none;
-    cursor: crosshair;
-    color: white;
-}
-.social-icons .fab{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    font-size: 20px;
-    background: #fff;
-    color: black;
-    margin-right: 15px;
-    cursor: pointer;
-  }
-    
+        footer {
+          width: 100%;
+          bottom: 0;
+          background: black;
+          color: white;
+          padding: 100px 0 30px;
+          border-top-left-radius: 125px;
+          font-size: 15px;
+          line-height: 20px;
+        }
+
+        .row {
+          width: 85%;
+          margin: auto;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: flex-start;
+          justify-content: space-between;
+
+        }
+
+        .h-books {
+          outline: none;
+          text-align: center;
+        }
+
+        .col {
+          flex-basis: 25%;
+          padding: 10px;
+        }
+
+        .logo {
+          width: 370px;
+          margin-bottom: 30px;
+        }
+
+        .col h3 {
+          width: fit-content;
+          margin-bottom: 40px;
+          position: relative;
+        }
+
+        .email {
+          width: fit-content;
+          border-bottom: 1px solid #ccc;
+        }
+
+        ul li {
+          list-style: none;
+          margin-bottom: 12px;
+        }
+
+        ul li a {
+          text-decoration: none;
+          color: white;
+        }
+
+        form {
+          padding-bottom: 15px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          border-bottom: 1px solid #ccc;
+          margin-bottom: 50px;
+        }
+
+        form .far {
+          font-size: 18px;
+          margin-right: 10px;
+        }
+
+        form input {
+          width: 100%;
+          background: transparent;
+          color: #ccc;
+          border: 0;
+          outline: none;
+        }
+
+        form button {
+          background: transparent;
+          border: 0;
+          outline: none;
+          cursor: crosshair;
+          color: white;
+        }
+
+        .social-icons .fab {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          text-align: center;
+          line-height: 40px;
+          font-size: 20px;
+          background: #fff;
+          color: black;
+          margin-right: 15px;
+          cursor: pointer;
+        }
+
+        footer {
+          width: 100%;
+          bottom: 0;
+          background: black;
+          color: white;
+          padding: 100px 0 30px;
+          border-top-left-radius: 125px;
+          font-size: 15px;
+          line-height: 20px;
+        }
+
+        .row {
+          width: 85%;
+          margin: auto;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: flex-start;
+          justify-content: space-between;
+
+        }
+
+        .col {
+          flex-basis: 25%;
+          padding: 10px;
+        }
+
+        .logo {
+          width: 370px;
+          margin-bottom: 30px;
+        }
+
+        .col h3 {
+          width: fit-content;
+          margin-bottom: 40px;
+          position: relative;
+        }
+
+        .email {
+          width: fit-content;
+          border-bottom: 1px solid #ccc;
+        }
+
+        ul li {
+          list-style: none;
+          margin-bottom: 12px;
+        }
+
+        ul li a {
+          text-decoration: none;
+          color: white;
+        }
+
+        form {
+          padding-bottom: 15px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          border-bottom: 1px solid #ccc;
+          margin-bottom: 50px;
+        }
+
+        form .far {
+          font-size: 18px;
+          margin-right: 10px;
+        }
+
+        form input {
+          width: 100%;
+          background: transparent;
+          color: #ccc;
+          border: 0;
+          outline: none;
+        }
+
+        form button {
+          background: transparent;
+          border: 0;
+          outline: none;
+          cursor: crosshair;
+          color: white;
+        }
+
+        .social-icons .fab {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          text-align: center;
+          line-height: 40px;
+          font-size: 20px;
+          background: #c7bfbf;
+          color: rgb(27, 193, 8);
+          margin-right: 15px;
+          cursor: pointer;
+        }
